@@ -2,6 +2,7 @@ package com.example.myex003;
 
 import androidx.appcompat.app.AppCompatActivity;
 
+import android.annotation.SuppressLint;
 import android.os.Bundle;
 import android.view.View;
 import android.widget.Button;
@@ -20,6 +21,7 @@ public class MainActivity extends AppCompatActivity {
         i = 0;
     }
 
+    @SuppressLint("SetTextI18n")
     public void count(View view) {
 
         i++;
